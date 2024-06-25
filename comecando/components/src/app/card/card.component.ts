@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './card.component.scss'
 })
 export class CardComponent {
+  plano ={
+    infos:{
+      tipo: 'Simples',
+      preco: 100,
+      prazo: 'Mês',
+    },
+    getFullPrice: function(){
+      return'R$'+ this.infos.preco+',00/'+this.infos.prazo;
+    }
+  };
 
 }
