@@ -1,0 +1,3 @@
+[submodule "comecando/primeiroProjeto"]
+	path = comecando/primeiroProjeto
+	url = https://github.com/Alex-Trauthman/projetosAngular.git
