@@ -16,5 +16,7 @@
         font-size: 40px;
         font-weight: 600;
     }
-    
+}
+:host ::ng-deep #button-cancel .card-button-cancel{
+    background-color: #368100 !important;
 }
