@@ -8,3 +8,8 @@ $bgColor: green;
 ::ng-deep .mdc-slider__track {
     background-color: $bgColor;
   }
+ ::ng-deep .mat-primary .mdc-slider__track--active_fill {
+    background-color: #00a716;
+    border: 0px solid #FFFFFF !important; /* Removes border from active track */
+    border-radius: 3px;
+}
