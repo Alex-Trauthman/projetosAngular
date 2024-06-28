@@ -2,3 +2,9 @@
 @import './globalOverrides.scss';
 $bgColor: green;
 
+::ng-deep.my-slider .mdc-slider__thumb .mdc-slider__thumb-knob {
+    border: 3px solid rgb(255, 0, 0);   
+  }
+::ng-deep .mdc-slider__track {
+    background-color: $bgColor;
+  }
